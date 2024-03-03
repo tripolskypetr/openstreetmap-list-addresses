@@ -14,7 +14,7 @@
 
 4. Получаем город в [openstreetmap.org/relation](https://www.openstreetmap.org/relation/2216724#map=11/41.2931/69.2993). Нажмите экспорт, скопируйте координату из ссылки для пункта 5
 
-5. Запускаем команду `./osmconvert planet*.pbf -b=ЛЕВО,НИЗ,ВЕРХ,ПРАВО -o output.pbf` (например: `./osmconvert planet*.pbf -b=69.0547,41.1949,69.5433,41.3908 -o=output.pbf`), примерно час времени
+5. Запускаем команду `./osmconvert planet*.pbf -b=ЛЕВО,НИЗ,ПРАВО,ВЕРХ -o output.pbf` (например: `./osmconvert planet*.pbf -b=69.0547,41.1949,69.5433,41.3908 -o=output.pbf`), примерно час времени
 
 6. Запускаем команду `./addressextract/addressextract -i output.pbf > addresses.json`
 
