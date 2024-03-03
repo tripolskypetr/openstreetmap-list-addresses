@@ -1,0 +1,16 @@
+OS: Ubuntu 22.04.2 LTS x86_64 
+Host: VirtualBox 1.2 
+Kernel: 5.15.0-75-generic 
+Uptime: 1 hour, 36 mins 
+Packages: 1745 (dpkg), 8 (snap) 
+Shell: bash 5.1.16 
+Resolution: 1920x945 
+DE: LXQt 0.17.1 
+WM: Xfwm4 
+Theme: Adwaita [GTK3] 
+Icons: Adwaita [GTK3] 
+Terminal: qterminal 
+CPU: 12th Gen Intel i5-12450H (1) @ 2.495GHz 
+GPU: 00:02.0 VMware SVGA II Adapter 
+Memory: 542MiB / 12264MiB 
+
